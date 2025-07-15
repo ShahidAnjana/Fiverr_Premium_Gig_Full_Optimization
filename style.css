@@ -12,14 +12,12 @@ body {
 
 /* ===== Hero Section ===== */
 .hero {
-  background-image: url("images/hero-bg.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  color: white;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("images/hero-bg.jpg") center center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0;
+  text-align: center;
 }
-
 .hero h1 {
   font-size: 3rem;
   font-weight: 600;
